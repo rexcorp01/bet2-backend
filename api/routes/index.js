@@ -8,7 +8,7 @@ const basename = path.basename(module.filename);
 /* GET home page. */
 router.get('/', function (req, res, next) {
   res.render('../index.html', {
-    title: 'Wizow'
+    title: 'Fotbets'
   });
 });
 

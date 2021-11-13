@@ -1,7 +1,7 @@
 {
   "name": "wizow-backend",
   "version": "1.0.0",
-  "description": "Backend for Wizow - created in node.js",
+  "description": "Backend for fotbets - created in node.js",
   "main": "app.js",
   "dependencies": {
     "@sendgrid/mail": "7.5.0",
