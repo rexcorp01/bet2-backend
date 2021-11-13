@@ -1,0 +1,69 @@
+{
+  "name": "wizow-backend",
+  "version": "1.0.0",
+  "description": "Backend for Wizow - created in node.js",
+  "main": "app.js",
+  "dependencies": {
+    "@sendgrid/mail": "7.5.0",
+    "authy": "1.4.0",
+    "aws-sdk": "2.989.0",
+    "bcrypt": "5.0.1",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dayjs": "1.10.7",
+    "debug": "^4.1.1",
+    "dotenv": "8.2.0",
+    "express": "^4.16.4",
+    "express-cluster": "^0.0.5",
+    "express-rate-limit": "5.5.0",
+    "fs": "^0.0.1-security",
+    "http-errors": "^1.8.0",
+    "jsonwebtoken": "^8.5.1",
+    "mobile-detect": "1.4.5",
+    "morgan": "^1.10.0",
+    "multer": "1.4.3",
+    "multer-s3": "2.9.0",
+    "mysql2": "^2.1.0",
+    "nodemailer": "6.6.3",
+    "nodemon": "2.0.6",
+    "path": "^0.12.7",
+    "pg": "8.7.1",
+    "pg-hstore": "2.3.4",
+    "sequelize": "6.6.5",
+    "sequelize-cli": "^6.1.0",
+    "twilio": "3.67.2"
+  },
+  "devDependencies": {
+    "sequelize-auto": "0.8.4"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha",
+    "dev": "nodemon app.js",
+    "auto": "sequelize-auto -o \"./models\" -d wizow -h localhost -p 3306 -e mysql -u root -x root"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/agents-of-radical/agents-of-radical-backend.git"
+  },
+  "keywords": [
+    "agents",
+    "of",
+    "radical",
+    "backend",
+    "node",
+    "health",
+    "and",
+    "beauty"
+  ],
+  "author": "Naked Dev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/agents-of-radical/agents-of-radical-backend/issues"
+  },
+  "homepage": "https://gitlab.com/agents-of-radical/agents-of-radical-backend#readme"
+}
