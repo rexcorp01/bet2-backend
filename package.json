@@ -1,5 +1,5 @@
 {
-  "name": "wizow-backend",
+  "name": "fotbets-backend",
   "version": "1.0.0",
   "description": "Backend for fotbets - created in node.js",
   "main": "app.js",
@@ -44,7 +44,7 @@
     "start": "node app.js",
     "test": "mocha",
     "dev": "nodemon app.js",
-    "auto": "sequelize-auto -o \"./models\" -d wizow -h localhost -p 3306 -e mysql -u root -x root"
+    "auto": "sequelize-auto -o \"./models\" -d fotbets -h localhost -p 3306 -e mysql -u root -x root"
   },
   "repository": {
     "type": "git",
