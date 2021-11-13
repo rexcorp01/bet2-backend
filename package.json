@@ -47,23 +47,11 @@
     "auto": "sequelize-auto -o \"./models\" -d fotbets -h localhost -p 3306 -e mysql -u root -x root"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://gitlab.com/agents-of-radical/agents-of-radical-backend.git"
+    "type": "git"
   },
   "keywords": [
-    "agents",
-    "of",
-    "radical",
-    "backend",
-    "node",
-    "health",
-    "and",
-    "beauty"
+
   ],
-  "author": "Naked Dev",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://gitlab.com/agents-of-radical/agents-of-radical-backend/issues"
-  },
-  "homepage": "https://gitlab.com/agents-of-radical/agents-of-radical-backend#readme"
+  "author": "Jake",
+  "license": "ISC"
 }
